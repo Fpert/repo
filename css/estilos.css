@@ -1,0 +1,134 @@
+.body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh !important;
+    font-family: 'Noto Sans', sans-serif;
+    color: #222222;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 100x;
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+
+@media only screen and (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+        }
+}
+
+.primero {
+    background-image: url(fitness.jpg);
+    background-position: center;
+    background-size: cover;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 50vh;
+    color:blue;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+
+barra-navegacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto 5rem;
+    padding-top: 10rem;
+    padding-bottom: 20rem;
+    color: bisque;
+}
+
+@media only screen and (min-width: 768px) {
+    barra-navegacion {
+            background-color: #000000;
+    }
+}
+
+
+.parrafos {
+    display: flex;
+    flex-direction: column; 
+    padding: 1px;
+    color:red;
+}
+
+
+
+.tabla {
+    color:teal;
+    background-color: rebeccapurple
+}
+
+.listas {
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 5rem;
+    padding-top: 10rem;
+    padding-bottom: 20rem 
+}
+
+.textos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.titulo1 {
+    color:blue;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.parrafo {
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.contacto {
+    background-color: yellowgreen
+}
+
+
+ul ul {
+    position:absolute;
+    display:none;
+    color:black;
+}
+
+ul ul li {
+    display: block;
+    color:black;
+}
+
+
+ul li:hover ul {
+    display:block;
+}
+
+footer{
+	background-color: grey;
+	margin:20px;
+}
